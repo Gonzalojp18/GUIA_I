@@ -4,7 +4,6 @@ Hacer un programa para ingresar por teclado la cantidad de horas trabajadas por 
 */
 
 #include <iostream>
-using namespace std;
 
 int main() {
 
@@ -12,16 +11,16 @@ int main() {
     float hourlyPay;
     float wage;
 
-    cout << "Enter your hours worked";
-    cin>>hoursWorked;
+    std::cout << "Enter your hours worked";
+    std::cin>>hoursWorked;
 
 
-    cout << "Enter your pay per hour";
-    cin>>hourlyPay;
+    std::cout << "Enter your pay per hour";
+    std::cin>>hourlyPay;
 
     wage = hoursWorked * hourlyPay;
 
-    cout<< "The total salary to be received is: " << wage;
+    std::cout<< "The total salary to be received is: " << wage;
 
 
 
